@@ -8,7 +8,6 @@ const Register = React.lazy(() => import('../view/Register'));
 const Home = React.lazy(() => import('../view/Home'));
 
 
-
 const Routes = [
 
     { path: '/login', name: 'Sign', exact: true, layout: Sign, },
